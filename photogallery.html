@@ -10,11 +10,10 @@
 <style>
 
 body {
-background-image: url("b4.jpeg");
+background-image: url("celtic background.jpeg");
 background-size: cover;
 background-attachment: fixed;
 }
-
 .navbar {
 display: grid;
 width: 80%;
@@ -33,7 +32,9 @@ padding: 0px 18px;
 }
 
 .navbar-logo {
-color: white;
+background: -webkit-linear-gradient(135deg, #8e560b, #f6d66d, #fff4b8, #b87014);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 font-family: Bodoni Moda;
 opacity: 0.8;
 transform: scaleY(1.4);
@@ -42,16 +43,13 @@ font-size: 160%;
 
 .navbar-link a {
 text-decoration: none;
-color:white;
+background: -webkit-linear-gradient(135deg, #8e560b, #f6d66d, #fff4b8, #b87014);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 font-family:Bodoni Moda;
 transform:scaleY(1.4);
 opacity:0.8;
 }
-
-.navbar-link a:hover {
-color: grey;
-}
-
 
 .title {
 display:grid;
@@ -60,11 +58,39 @@ padding:30px;
 
 .titlewords {
 padding:10px;
-color: white;
+background: -webkit-linear-gradient(135deg, #8e560b, #f6d66d, #fff4b8, #b87014);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 opacity:0.8;
 font-family: Bodoni Moda;
 transform:scaleY(1.4);
 font-size:300%;
+}
+
+.gold {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+column-gap: 20px;
+row-gap: 20px;
+align-items: end;
+padding: 40px;
+}
+
+.copper {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+column-gap: 20px;
+row-gap: 20px;
+align-items: end;
+padding: 40px;
+}
+
+.silver {
+display: grid;
+grid-template-columns: repeat(4,1fr);
+column-gap: 20px;
+align-items: end;
+padding: 40px;
 }
 
 .blues {
@@ -78,7 +104,7 @@ padding: 40px;
 
 .pearls {
 display: grid;
-grid-template-columns: repeat(2, 1fr);
+grid-template-columns: repeat(3, 1fr);
 column-gap: 20px;
 padding: 40px;
 }
@@ -93,10 +119,9 @@ align-items:end;
 
 .greens {
 display:grid;
-grid-template-columns: repeat(2, 1fr);
+grid-template-columns: repeat(3, 1fr);
 aligns-items:end;
 column-gap:20px;
-row-gap:20px;
 padding:40px;
 }
 
@@ -117,7 +142,7 @@ padding:40px;
 
 .seaglasses {
 display:grid;
-grid-template-columns:repeat(3,1fr);
+grid-template-columns:repeat(4,1fr);
 column-gap:20px;
 padding:40px;
 }
@@ -142,13 +167,6 @@ padding:40px;
 align-items:end;
 }
 
-.rounds {
-display:grid;
-grid-template-columns:auto auto;
-column-gap:20px;
-padding:40px;
-}
-
 img {
 max-width: 100%;
 }
@@ -170,68 +188,86 @@ max-width: 100%;
    <div class="titlewords">PHOTO GALLERY</div>
 </div>
 
+<div class="gold">
+   <div><img src="IMG_5753.jpeg"></div>
+   <div><img src="IMG_5750.jpeg"></div>
+   <div><img src="IMG_5751.jpeg"></div>
+   <div><img src="IMG_5757.jpeg"></div>
+   <div><img src="IMG_5761.jpeg"></div>
+   <div><img src="IMG_5786.jpeg"></div>
+</div>
+
+<div class="copper">
+   <div><img src="IMG_5766.jpeg"></div>
+   <div><img src="IMG_5762.jpeg"></div>
+   <div><img src="IMG_5765.jpeg"></div>
+   <div><img src="IMG_5764.jpeg"></div>
+</div>
+
+<div class="silver">
+   <div><img src="IMG_5775.jpeg"></div>
+   <div><img src="IMG_5776.jpeg"></div>
+   <div><img src="IMG_5777.jpeg"></div>
+   <div><img src="IMG_5778.jpeg"></div>
+</div>
+
 <div class="blues">
-   <div><img src="Product photos/IMG_5059.jpeg"></div>
-   <div><img src="Product photos/IMG_5047.jpeg"></div>
-   <div><img src="Product photos/IMG_5052.jpeg"></div>
-   <div><img src="Product photos/IMG_5055.jpeg"></div>
-   <div><img src="Product photos/IMG_5056.jpeg"></div>
-   <div><img src="Product photos/IMG_5057.jpeg"></div>
+   <div><img src="IMG_5055.jpeg"></div>
+   <div><img src="IMG_5782.jpeg"></div>
+   <div><img src="IMG_5783.jpeg"></div>
+   <div><img src="IMG_5047.jpeg"></div>
+   <div><img src="IMG_5052.jpeg"></div>
+</div>
+
+<div class="romans">
+   <div><img src="IMG_5071.jpeg"></div>
+   <div><img src="IMG_5072.jpeg"></div>
+   <div><img src="IMG_5784.jpeg"></div>
 </div>
 <div class="pearls">
-   <div><img src="Product photos/IMG_5061.jpeg"></div>
-   <div><img src="Product photos/IMG_5065.jpeg"></div>
+   <div><img src="IMG_5061.jpeg"></div>
+   <div><img src="IMG_5065.jpeg"></div>
+   <div><img src="IMG_5780.jpeg"></div>
 </div>
-<div class="romans">
-   <div><img src="Product photos/IMG_5071.jpeg"></div>
-   <div><img src="Product photos/IMG_5072.jpeg"></div>
-   <div><img src="Product photos/IMG_5069.jpeg"></div>
-</div>
-
-<div class="greens">
-   <div><img src="Product photos/IMG_5080.jpeg"></div>  
-   <div><img src="Product photos/IMG_5074.jpeg"></div>
-   <div><img src="Product photos/IMG_5076.jpeg"></div>
-   <div><img src="Product photos/IMG_5079.jpeg"></div>
-</div>
-
 <div class="seaglasses">
-   <div><img src="Product photos/IMG_5104.jpeg"></div>
-   <div><img src="Product photos/IMG_5102.jpeg"></div>
-   <div><img src="Product photos/IMG_5105.jpeg"></div>
+   <div><img src="IMG_5781.jpeg"></div>
+   <div><img src="IMG_5104.jpeg"></div>
+   <div><img src="IMG_5102.jpeg"></div>
+   <div><img src="IMG_5105.jpeg"></div>
 </div>
+<div class="greens">
+   <div><img src="IMG_5779.jpeg"></div>  
+   <div><img src="IMG_5074.jpeg"></div>
+   <div><img src="IMG_5079.jpeg"></div>
+</div>
+
 
 <div class="turquoises">
-   <div><img src="Product photos/IMG_5086.jpeg"></div>
-   <div><img src="Product photos/IMG_5087.jpeg"></div>
+   <div><img src="IMG_5086.jpeg"></div>
+   <div><img src="IMG_5087.jpeg"></div>
 </div>
 
 <div class="wooden">
-   <div><img src="Product photos/IMG_5113.jpeg"></div>
-   <div><img src="Product photos/IMG_5107.jpeg"></div>
-   <div><img src="Product photos/IMG_5119.jpeg"></div>
-   <div><img src="Product photos/IMG_5115.jpeg"></div>
-   <div><img src="Product photos/IMG_5110.jpeg"></div>
-   <div><img src="Product photos/IMG_5120.jpeg"></div>
-   <div class="tallitem"><img src="Product photos/IMG_5118.jpeg"></div>  
+   <div><img src="IMG_5113.jpeg"></div>
+   <div><img src="IMG_5107.jpeg"></div>
+   <div><img src="IMG_5119.jpeg"></div>
+   <div><img src="IMG_5115.jpeg"></div>
+   <div><img src="IMG_5110.jpeg"></div>
+   <div><img src="IMG_5120.jpeg"></div>
+   <div class="tallitem"><img src="IMG_5118.jpeg"></div>  
 </div>
 
 <div class="twindangles">
-   <div><img src="Product photos/IMG_5081.jpeg"></div>
-   <div><img src="Product photos/IMG_5082.jpeg"></div>
-   <div><img src="Product photos/IMG_5084.jpeg"></div>
-   <div><img src="Product photos/IMG_5085.jpeg"></div>
+   <div><img src="IMG_5081.jpeg"></div>
+   <div><img src="IMG_5082.jpeg"></div>
+   <div><img src="IMG_5084.jpeg"></div>
+   <div><img src="IMG_5085.jpeg"></div>
 </div>
 
 <div class="bluerounds">
-   <div><img src="Product photos/IMG_5092.jpeg"></div>
-   <div><img src="Product photos/IMG_5097.jpeg"></div>
-   <div><img src="Product photos/IMG_5094.jpeg"></div>
-</div>
-
-<div class="rounds">
-  <div><img src="Product photos/IMG_5088.jpeg"></div>
-  <div><img src="Product photos/IMG_5091.jpeg"></div>
+   <div><img src="IMG_5092.jpeg"></div>
+   <div><img src="IMG_5097.jpeg"></div>
+   <div><img src="IMG_5094.jpeg"></div>
 </div>
 
 
